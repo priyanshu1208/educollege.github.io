@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduCollege</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/a2b872302a.js" crossorigin="anonymous"></script>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu&display=swap"
+          rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/—Pngtree—logo for education or school_6955913.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <section id="title">
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light "
+             style="background-color: rgb(192, 250, 250) !important;">
+
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="#title">
+                    <img src="images/—Pngtree—logo for education or school_6955913.png" alt="" width="35" height="35"
+                         class="d-inline-block align-text-top">
+                    EduCollege
+                </a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                     aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Main Menu</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                            <li class="nav-item first-item">
+                                <a class="nav-link " aria-current="page" href="#">Home</a>
+                                <hr class="d-lg-none">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutus">About Us</a>
+                                <hr class="d-lg-none">
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Courses
+                                </a>
+                                <ul class="dropdown-menu mt-lg-2" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li><a class="dropdown-item" href="#courses">Class 11</a></li>
+                                    <li><a class="dropdown-item" href="#courses">Class 12</a></li>
+                                    <li><a class="dropdown-item" href="#courses">B.Tech</a></li>
+                                    <hr class="dropdown-divisor">
+                                    <li><a class="dropdown-item" href="#courses">MBA</a></li>
+                                </ul>
+                                <hr class="d-lg-none">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">Contact Us</a>
+                            </li>
+                            <hr class="d-lg-non e">
+                        </ul>
+
+                        <button class="btn btn-outline-dark me-md-1 me-sm-3 btn-sm" type="button"
+                                onclick="location.href='#signup'"> <i class="fa-solid fa-user-plus"></i> Sign Up
+                        </button>
+                        <button class="btn btn-outline-dark me-lg-3 ms-lg-2 ms-md-2 btn-sm second-btn" type="button"
+                                onclick="location.href='#signup'"><i class="fa-solid fa-user"></i>
+                            Login
+                        </button>
+                    </div>
+                </div>
+
+        </nav>
+    </section>
+    <!-- TITLE IMAGE -->
+    <section class="hero-section set-bg" data-setbg="images/bg.jpg" style="background-image: url(images/bg.jpg);">
+        <div class="container">
+            <div class="hero-text text-white">
+                <h2 class="title-text">An investment in knowledge pays the best interest. </h2>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT US -->
+
+    <section id="aboutus">
+        <div class="contianer-fluid">
+            <div>
+                <h2 class="aboutusheading">About Us</h2>
+            </div>
+            <div class="aboutuscontent">
+                <p class="aboutus-text"><em> EduCollege is an online platform where students can learn for free.We have
+                        gone through various online
+                        study material and have combined the best of them for you</em></p>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- COURSES -->
+    <section id="courses">
+        <h1 class="courses-title">Our <span class="courses-course">Course</span> Categories</h1>
+
+        <div class="courses-card">
+            <div class="row g-4 ms-auto me-auto ">
+
+                <div class="col-lg-3 ">
+                    <div class="card card-first">
+                        <img src="images/class 11.gif" class="card-img-top courses-img " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Class 11</h5>
+                            <p class="card-text">
+                                Physics is the basic physical science.Recent times physics and natural
+                                philosophy were used interchangeably for the science whose aim is the discovery and
+                                formulation of the fundamental laws of nature.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 ">
+                    <div class="card">
+                        <img src="images/class 12.gif" class="card-img-top courses-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Class 12</h5>
+                            <p class="card-text">Chemistry is the study of substances that is, elements and compounds
+                                while biology is the study of living things.These two branches (Physics and Chemistry)
+                                of science meet in the
+                                discipline of biochemistry and enviornmental chemistry.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 ">
+                    <div class="card">
+                        <img src="images/btech.gif" class="card-img-top courses-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">B.Tech</h5>
+                            <p class="card-text"> Computer is a digital machine that can be programmed to carry out
+                                sequences of logical or arithmetic operations automatically. Modern Computers can
+                                perform generic programs.Computers are widely used in thw globe. </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 ">
+                    <div class="card">
+                        <img src="images/gif-arcade-coder.gif" class="card-img-top courses-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MBA</h5>
+                            <p class="card-text">What means MBA degree?
+                                Master of Business Administration is
+                                MBA definition.MBA stands for Master of Business Administration. First introduced by
+                                Harvard University Graduate School, Boston of
+                                Administration in 1908.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <section id="signup">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-side">
+                    <h1 class="signup-heading">Sign Up</h1>
+
+                </div>
+                <div class="form">
+                    <form class="signup-form" action="#">
+                        <div class="mb-3">
+
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+
+                            <input type="email" placeholder="Your Email">
+
+                        </div>
+                        <div class="mb-3">
+
+                            <input type="password" placeholder="Create Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-dark signup-btn">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/videoblocks-smiling-businessman-working-on-laptop-computer-at-home-office-male-professional-typing-on-laptop-keyboard-at-office-workplace-portrait-of-positive-business-man-looking-at-la.png"
+                     alt="" class="signup-image d-none d-lg-block d.xl-none">
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR TEAM -->
+    <section id="ourteam">
+        <h1 class="team-heading">My Team</h1>
+        <div class="card mb-3 team-card">
+            <div class="row g-0">
+                <div class="col-lg-4 ">
+                    <img src="images/Priyanshu.jpeg" class="img-fluid rounded-circle "
+                         alt="... ">
+                </div>
+                <div class="col-lg-8">
+                    <div class="card-body">
+                        <h5 class="card-titles">Priyanshu Chugh</h5>
+                        <p class="card-texts"><em> I am from Bahadurgarh,Haryana.Currently pursuing B.Tech in Computer
+                                Science Engineering from MAIT.Currently working as an Intern at The Entrepreneurship
+                                Network
+                                Rohini.My interest in the area is going to Web Development.</em></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="images/—Pngtree—logo for education or school_6955913.png" alt="" height="300px"
+                         class="footer-image">
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="contact-info">
+                                <h1 class="footer-heading">Contact Us</h1>
+                                <p class="contact-add">Plot No 1 Rohini, Plot No 1, CH Bhim Singh Nambardar Marg, Sector
+                                    22, PSP Area, Delhi, 110086</p>
+                                <div class="contact-mobile">
+                                    <a href="tel:9306348136" class="mobile">+91 9306348136</a>
+                                </div>
+                                <div class="contact-email"> <a href="mailto:chugh.priyanshu2013@gmailcom"
+                                       class="email">chugh.priyanshu2013@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/priyanshu.chugh.7/"> <i
+                                   class="fa-brands fa-facebook icon icon1 "></i></a>
+                            <a href="https://www.instagram.com/priyanshu.chugh213/"><i class="fa-brands fa-instagram icon icon2 "></i></a>
+                            <a href="www.linkedin.com/in/priyanshu-chugh-b92478131"><i class="fa-brands fa-linkedin icon icon4 "></i></a>
+                            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube icon icon3 "></i></a>
+                            <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter icon icon4  "></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COPYRIGHT -->
+    <footer>
+        <p>©2022 Copyrights All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
