@@ -340,6 +340,7 @@ input {
 @media (max-width:769px) {
     #ourteam {
         height: 1050px;
+        width:auto;
     }
 
     .team-heading {
